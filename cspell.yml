@@ -20,7 +20,9 @@ words:
   - autobrief
   - bclk
   - bldo
+  - cjson
   - colorstyle
+  - coreboard
   - ctlr
   - defconfig
   - discon
@@ -80,7 +82,10 @@ words:
   - srtc
   - srtp
   - tempotian
+  - tsens
   - watchpoint
   - waveshare
   - wconversion
+  - werror
+  - wroom
   - xclk
