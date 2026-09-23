@@ -28,6 +28,7 @@ words:
   - discon
   - dotenv
   - doxygenlayout
+  - efuse
   - endchoice
   - endmenu
   - espressif

@@ -41,3 +41,7 @@ CONFIG_CAMERA_SC2336=y
 CONFIG_CAMERA_SC2336_MIPI_RAW8_1280X720_30FPS=y
 # Keep the bootloader under the 0x8000 partition table offset on IDF v6
 CONFIG_BOOTLOADER_LOG_LEVEL_WARN=y
+
+# IDF v6.1 removed some cross-signing roots from its certificate bundle; needed
+# to verify LiveKit Cloud certificates (option does not exist on earlier IDF)
+CONFIG_MBEDTLS_CERTIFICATE_BUNDLE_CROSS_SIGNED_VERIFY=y
